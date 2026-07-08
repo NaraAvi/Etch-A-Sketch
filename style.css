@@ -26,12 +26,16 @@ body {
 .container>.row {
     flex: 1;
     width: 100%;
-    border: 1px solid red;
+    border: 1px solid black;
     display: flex;
 }
 
 .row>.col {
     flex: 1;
     height: 100%;
-    border: 1px solid red;
+    border: 1px solid black;
+}
+
+.col.fill {
+    background-color: red;
 }
