@@ -3,6 +3,8 @@
 *::after {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 body {
@@ -21,6 +23,7 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
+    margin: 10rem;
 }
 
 .container>.row {
@@ -38,4 +41,11 @@ body {
 
 .col.fill {
     background-color: red;
+}
+
+#btn-grid-size {
+    margin: auto auto;
+    padding: 0.2em 1em;
+    border-radius: 4px;
+    border-width: 1px;
 }
